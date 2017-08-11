@@ -1,16 +1,30 @@
+body {
+  background: url('./images/bbwmg-dickinson.jpg');
+  background-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.keys {
+  text-align: center;
+  margin: auto;
+}
 .key {
   transform: scale(1);
   border-radius: 20px;
-  border: 1px solid black;
+  border: 3px solid Blue;
   width: 100px;
   height: 100px;
   text-align: center;
   display: inline-block;
   margin: 10px;
   background: LightBlue;
+  opacity: 0.75;
+  text-transform: uppercase;
+  box-shadow: 0, 0, 0, 10px;
 }
 .key:hover {
   background: LightYellow;
+  border: 3px solid Yellow;
+  box-shadow: 0, 0, 0, 10px;
 }
 
 .key kbd {
